@@ -13,6 +13,14 @@
 		E41B16C019F18AC100F1FEFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41B16BF19F18AC100F1FEFD /* Images.xcassets */; };
 		E41B16C319F18AC100F1FEFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E41B16C119F18AC100F1FEFD /* LaunchScreen.xib */; };
 		E41B16CF19F18AC100F1FEFD /* SettingsExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B16CE19F18AC100F1FEFD /* SettingsExperimentTests.swift */; };
+		E41B16DA19F18B0C00F1FEFD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B16D819F18B0C00F1FEFD /* SettingsViewController.swift */; };
+		E41B16DB19F18B0C00F1FEFD /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E41B16D919F18B0C00F1FEFD /* SettingsViewController.xib */; };
+		E41B16DD19F18E1F00F1FEFD /* FiraSans-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E41B16DC19F18E1F00F1FEFD /* FiraSans-UltraLight.ttf */; };
+		E41B16DF19F18F4300F1FEFD /* FiraSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E41B16DE19F18F4300F1FEFD /* FiraSans-SemiBold.ttf */; };
+		E41B16E119F191DB00F1FEFD /* FiraSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E41B16E019F191DB00F1FEFD /* FiraSans-Light.ttf */; };
+		E41B16E619F1A2B700F1FEFD /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41B16E419F1A2B700F1FEFD /* x.png */; };
+		E41B16E719F1A2B700F1FEFD /* x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41B16E519F1A2B700F1FEFD /* x@2x.png */; };
+		E41B16E919F1AA9F00F1FEFD /* Madhava.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E41B16E819F1AA9F00F1FEFD /* Madhava.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		E41B16C819F18AC100F1FEFD /* SettingsExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingsExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41B16CD19F18AC100F1FEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41B16CE19F18AC100F1FEFD /* SettingsExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsExperimentTests.swift; sourceTree = "<group>"; };
+		E41B16D819F18B0C00F1FEFD /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E41B16D919F18B0C00F1FEFD /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		E41B16DC19F18E1F00F1FEFD /* FiraSans-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-UltraLight.ttf"; sourceTree = "<group>"; };
+		E41B16DE19F18F4300F1FEFD /* FiraSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		E41B16E019F191DB00F1FEFD /* FiraSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Light.ttf"; sourceTree = "<group>"; };
+		E41B16E419F1A2B700F1FEFD /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		E41B16E519F1A2B700F1FEFD /* x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x@2x.png"; sourceTree = "<group>"; };
+		E41B16E819F1AA9F00F1FEFD /* Madhava.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Madhava.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +99,14 @@
 				E41B16BF19F18AC100F1FEFD /* Images.xcassets */,
 				E41B16C119F18AC100F1FEFD /* LaunchScreen.xib */,
 				E41B16B619F18AC100F1FEFD /* Supporting Files */,
+				E41B16D819F18B0C00F1FEFD /* SettingsViewController.swift */,
+				E41B16D919F18B0C00F1FEFD /* SettingsViewController.xib */,
+				E41B16DC19F18E1F00F1FEFD /* FiraSans-UltraLight.ttf */,
+				E41B16E019F191DB00F1FEFD /* FiraSans-Light.ttf */,
+				E41B16DE19F18F4300F1FEFD /* FiraSans-SemiBold.ttf */,
+				E41B16E419F1A2B700F1FEFD /* x.png */,
+				E41B16E519F1A2B700F1FEFD /* x@2x.png */,
+				E41B16E819F1AA9F00F1FEFD /* Madhava.jpg */,
 			);
 			path = SettingsExperiment;
 			sourceTree = "<group>";
@@ -192,9 +216,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41B16E619F1A2B700F1FEFD /* x.png in Resources */,
 				E41B16BE19F18AC100F1FEFD /* Main.storyboard in Resources */,
+				E41B16E719F1A2B700F1FEFD /* x@2x.png in Resources */,
+				E41B16DD19F18E1F00F1FEFD /* FiraSans-UltraLight.ttf in Resources */,
+				E41B16DF19F18F4300F1FEFD /* FiraSans-SemiBold.ttf in Resources */,
 				E41B16C319F18AC100F1FEFD /* LaunchScreen.xib in Resources */,
+				E41B16E919F1AA9F00F1FEFD /* Madhava.jpg in Resources */,
+				E41B16E119F191DB00F1FEFD /* FiraSans-Light.ttf in Resources */,
 				E41B16C019F18AC100F1FEFD /* Images.xcassets in Resources */,
+				E41B16DB19F18B0C00F1FEFD /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +245,7 @@
 			files = (
 				E41B16BB19F18AC100F1FEFD /* ViewController.swift in Sources */,
 				E41B16B919F18AC100F1FEFD /* AppDelegate.swift in Sources */,
+				E41B16DA19F18B0C00F1FEFD /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
