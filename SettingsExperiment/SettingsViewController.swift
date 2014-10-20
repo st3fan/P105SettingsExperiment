@@ -44,9 +44,9 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         
         let labels = ["Tabs", "History", "Bookmarks", "Reader"]
         
-        cell.textLabel!.text = labels[indexPath.row]
-        cell.textLabel!.font = UIFont(name: "FiraSans-Light", size: cell.textLabel!.font.pointSize)
-        cell.textLabel!.textColor = UIColor.whiteColor()
+        cell.textLabel.text = labels[indexPath.row]
+        cell.textLabel.font = UIFont(name: "FiraSans-Light", size: cell.textLabel.font.pointSize)
+        cell.textLabel.textColor = UIColor.whiteColor()
         cell.backgroundColor = self.view.backgroundColor
         cell.separatorInset = UIEdgeInsetsZero
         
